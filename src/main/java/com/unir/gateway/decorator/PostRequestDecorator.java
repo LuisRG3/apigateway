@@ -16,6 +16,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import reactor.core.publisher.Flux;
 
 import java.net.URI;
+import java.util.List;
 
 /**
  * This class is a decorator for the GatewayRequest object for POST requests.

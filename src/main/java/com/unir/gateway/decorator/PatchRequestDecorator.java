@@ -58,6 +58,7 @@ public class PatchRequestDecorator extends ServerHttpRequestDecorator {
         return UriComponentsBuilder.fromUri((URI) gatewayRequest.getExchange().getAttributes().get(ServerWebExchangeUtils.GATEWAY_REQUEST_URL_ATTR)).build().toUri();
     }
 
+
     /**
      * This method overrides the getHeaders method of the ServerHttpRequestDecorator class.
      * It returns the headers of the request.
